@@ -5,8 +5,8 @@
 ## Dependencies
 
 * [Python 3](https://www.python.org)
- * [NumPy](https://www.numpy.org)
- * [Pandas](https://pandas.pydata.org)
+   * [NumPy](https://www.numpy.org)
+   * [Pandas](https://pandas.pydata.org)
 
 ## Installing
 
@@ -24,7 +24,7 @@ Note: On some systems, the command may be `python3`.
 
 ## Usage
 
-The bikeshare statistics available are as follows:
+The following bikeshare statistics are available:
 * `Time` - most frequent times of travel
 * `Station` - most popular stations and trip
 * `Trip Duration` - total and average trip duration
@@ -32,7 +32,7 @@ The bikeshare statistics available are as follows:
 
 ## Troubleshooting
 
-The following error indicates Pandas is not installed.
+The following error indicates Pandas is not installed:
 
 ```
 $ python bikeshare.py
@@ -45,7 +45,7 @@ ImportError: No module named 'numpy'
 Use either PyPI or Conda to install it, depending on your setup.
 
 ```
-# PyPI (may need to use pip3 command))
+# PyPI (may need to use pip3 command)
 pip install pandas
 ```
 
@@ -54,7 +54,7 @@ pip install pandas
 conda install pandas
 ```
 
-If you get an error like the below, verify you're running Python 3.0 or higher with `python -V`. If this shows a Python 2 version and you're certain Python 3 is installed, try running the **bikeshare** script with the `python3` command.
+If you get an error like the below, verify you're running Python 3.0 or higher with `python -V`. If this lists a Python 2 version and you're certain Python 3 is installed, try running the script with the `python3` command.
 
 ```
 Traceback (most recent call last):
